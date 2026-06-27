@@ -1,0 +1,24 @@
+{
+  "name": "career-os-ai-copilot",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Local-first Electron prototype for managing a personal co-op job search workflow with AI-led implementation.",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "check": "node --check electron/main.js && node --check electron/preload.js && node --check dashboard/career-software-app.js && node --check dashboard/career-software-data.js"
+  },
+  "keywords": [
+    "electron",
+    "career",
+    "job-search",
+    "local-first",
+    "ai-led",
+    "workflow"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^42.4.1"
+  }
+}

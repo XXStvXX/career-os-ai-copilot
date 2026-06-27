@@ -1,0 +1,52 @@
+window.careerOSSeed = {
+  jobs: [
+    {
+      id: 'JD-2026-001',
+      role: 'Data Analyst Co-op',
+      company: 'Example Analytics Studio',
+      term: 'Fall 2026',
+      source: 'School portal',
+      deadline: '2026-07-15',
+      status: 'approved',
+      link: 'https://example.com/jobs/data-analyst-coop',
+      fit: 86,
+      notes: 'Junior-friendly analytics role with SQL, dashboards, stakeholder communication, and room for AI-assisted workflow improvement.',
+    },
+    {
+      id: 'JD-2026-002',
+      role: 'Operations Technology Intern',
+      company: 'Small Creative Team Inc.',
+      term: 'Winter 2027',
+      source: 'LinkedIn',
+      deadline: '2026-08-02',
+      status: 'collected',
+      link: 'https://example.com/jobs/ops-tech-intern',
+      fit: 78,
+      notes: 'Smaller team, broad responsibilities, automation-friendly scope. Needs human review before package work.',
+    },
+    {
+      id: 'JD-2026-003',
+      role: 'AI Workflow Assistant Intern',
+      company: 'Prototype Lab',
+      term: 'Summer 2027',
+      source: 'Manual research',
+      deadline: '2026-09-10',
+      status: 'processing',
+      link: 'https://example.com/jobs/ai-workflow-assistant',
+      fit: 91,
+      notes: 'Strong match for AI tooling, process design, and human-in-the-loop automation. Package draft in progress.',
+    },
+  ],
+  learningGoals: [
+    { name: 'SQL portfolio queries', progress: 45 },
+    { name: 'Power BI dashboard basics', progress: 30 },
+    { name: 'AI-assisted JD analysis workflow', progress: 60 },
+  ],
+  collector: {
+    learnedRules: [
+      'Prefer school portal roles and junior-friendly teams.',
+      'Boost roles that mention SQL, dashboards, operations, AI tools, or workflow automation.',
+      'Do not over-prioritize prestige if the role is too senior or pure software engineering.',
+    ],
+  },
+};

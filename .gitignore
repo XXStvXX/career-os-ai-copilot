@@ -1,0 +1,22 @@
+node_modules/
+.DS_Store
+
+# Local runtime state
+runtime_state/*.json
+runtime_requests/*.json
+
+# User-generated application materials
+job_workspaces/*
+!job_workspaces/README.md
+document_pool/*
+!document_pool/README.md
+
+# Private archives and reports
+archives/
+archive/
+
+# Logs and packaged builds
+*.log
+dist/
+build/
+out/

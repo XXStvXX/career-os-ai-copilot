@@ -33,11 +33,11 @@ This repo contains a **public-safe demo version**. Real job data, school portal 
 
 The original working version is used locally for one person's job search. This public version is meant to show the system design, product thinking, and implementation direction without exposing private information.
 
-## AI Collaboration Disclosure
+## Build Provenance: AI-Led Implementation
 
-This project was built through substantial AI collaboration.
+This project was built through explicit, substantial AI collaboration. The implementation was largely produced by an AI coding agent operating from user-provided product direction, constraints, feedback, and approval.
 
-My role:
+Human role:
 
 - Defined the product need and workflow
 - Described the interface and interaction model
@@ -45,7 +45,7 @@ My role:
 - Reviewed outputs and corrected direction
 - Supplied domain judgment about what roles were realistic or attractive
 
-AI coding assistant role:
+AI coding agent role:
 
 - Translated requirements into Electron / HTML / CSS / JavaScript implementation
 - Iterated UI structure and local-state logic
@@ -53,7 +53,9 @@ AI coding assistant role:
 - Generated and revised documentation
 - Assisted with debugging, packaging, and privacy review
 
-I do not present this as a solo hand-coded engineering project. It is a realistic example of how I use AI tools as a force multiplier: turning a messy personal workflow into a structured, inspectable, locally running prototype while keeping human judgment in the loop.
+I do not present this as a solo hand-coded engineering project. It is a realistic example of AI-native building: the human operator supplied the problem, taste, constraints, and review loop; the AI coding agent carried much of the implementation, refactoring, debugging, and packaging work.
+
+That distinction is intentional. The project is meant to show how I can direct AI systems toward a concrete product outcome, not to hide the fact that AI did a large share of the coding.
 
 ## Why This Project Exists
 
@@ -86,7 +88,7 @@ Career OS AI Copilot
 └── docs/
 ```
 
-More detail: `docs/ARCHITECTURE.md`
+More detail: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 
 ## Run Locally
 
@@ -111,11 +113,11 @@ This app is designed to be local-first.
 - Uploaded documents stay in local folders.
 - Real job records and personal materials should not be committed.
 
-See `docs/PRIVACY.md`.
+See [docs/PRIVACY.md](docs/PRIVACY.md).
 
 ## Roadmap
 
-See `docs/ROADMAP.md`.
+See [docs/ROADMAP.md](docs/ROADMAP.md).
 
 ## Recruiter-Facing Summary
 
@@ -125,6 +127,6 @@ This project demonstrates:
 - Local app architecture with Electron
 - Human-in-the-loop automation design
 - Data modeling for jobs, candidates, decisions, and application states
-- Practical AI collaboration rather than pretending AI was not involved
+- Practical AI orchestration rather than pretending AI was not involved
 
 The automation modules are still early. The value of the current repo is the workflow architecture and iterative prototype, not a claim that job applications are fully automated.

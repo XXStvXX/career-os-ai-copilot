@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'"
+    />
+    <title>Career OS AI Copilot</title>
+    <link rel="stylesheet" href="./career-software.css" />
+  </head>
+  <body>
+    <div class="app-shell" id="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <div class="brand">
+          <span>Career OS</span>
+          <strong>Co-op Command Center</strong>
+          <p>本地求职软件原型</p>
+        </div>
+        <button class="sidebar-toggle" id="sidebar-toggle" type="button">收起边栏</button>
+        <nav class="app-nav" id="app-nav" aria-label="Career OS pages"></nav>
+        <div class="workspace-card" id="workspace-card"></div>
+      </aside>
+
+      <main class="main-panel">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow" id="page-eyebrow"></p>
+            <h1 id="page-title"></h1>
+          </div>
+          <div class="top-actions" id="top-actions"></div>
+        </header>
+        <section id="app-content"></section>
+      </main>
+    </div>
+    <script src="./career-software-data.js"></script>
+    <script src="./career-software-app.js"></script>
+  </body>
+</html>
